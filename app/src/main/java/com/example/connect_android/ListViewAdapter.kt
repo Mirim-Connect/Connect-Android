@@ -46,7 +46,6 @@ class ListViewAdapter(val context: Context, val humanList: Array<ListViewItem>) 
         clothing.text = human.clothing
         characteristics.text = human.characteristics
 
-
         return view
     }
 
