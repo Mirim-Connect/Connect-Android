@@ -33,6 +33,7 @@
                 android:layout_marginLeft="15dp"
                 android:background="@drawable/round"
                 android:visibility="gone" />
+
         </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
@@ -47,4 +48,5 @@
                 android:layout_height="match_parent" />
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>
