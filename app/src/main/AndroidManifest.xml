@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectandroid">
         <activity
+            android:name=".Human_writepage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
@@ -21,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
