@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/round.xml" value="0.223" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/shadow.xml" value="0.2265" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_choose_menu.xml" value="0.36614583333333334" />
         <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/custom_listitem_human.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>

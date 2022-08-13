@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="박땡떙"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남자"
+            android:textSize="9sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_marginRight="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분류: 가출인"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:id="@+id/missingDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="실종일시: 2020.08.13"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:id="@+id/missingAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="실종나이: 21세 (현 23세)"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:id="@+id/missingPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="실종장소: 서울특별시 강동구 천호동 "
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:id="@+id/clothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="착의사항: 검은색 모자를 쓰고 있음"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:id="@+id/characteristics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="신체특징: 키 165cm, 50kg, 마른비만, 안경x..."
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="댓글작성"
+            android:textSize="8sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/round"
+            android:text="자세히 보기" />
+    </RelativeLayout>
+</LinearLayout>

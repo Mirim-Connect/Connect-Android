@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectandroid">
         <activity
+            android:name=".choose_menu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
