@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectandroid">
         <activity
+            android:name=".animals_writepage"
+            android:exported="false" />
+        <activity
             android:name=".Human_writepage"
             android:exported="false" />
         <activity
