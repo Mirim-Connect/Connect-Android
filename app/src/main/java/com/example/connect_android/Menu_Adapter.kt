@@ -1,4 +1,7 @@
 package com.example.connect_android
 
-class Menu_Adapter {
+import android.widget.RelativeLayout
+
+class Menu_Adapter
+{
 }

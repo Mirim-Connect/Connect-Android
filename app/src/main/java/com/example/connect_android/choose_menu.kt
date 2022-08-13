@@ -12,7 +12,7 @@ class choose_menu : AppCompatActivity() {
 
         val human_btn_intent = findViewById<Button>(R.id.btn_human)
         human_btn_intent.setOnClickListener {
-            val intent = Intent(this, Menu_Adapter::class.java)
+            val intent = Intent(this@choose_menu, MainActivity::class.java)
             startActivity(intent)
         }
 
