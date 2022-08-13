@@ -5,6 +5,183 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
     tools:context=".Human_writepage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <ImageView
+               android:layout_width="300dp"
+               android:layout_height="200dp"
+               android:background="@drawable/round"
+               android:layout_gravity="center"
+               android:layout_marginTop="15dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="실종자명"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <EditText
+               android:layout_width="130dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_edittext"
+               android:layout_marginTop="10dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="성별"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+               <RadioGroup
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:buttonTint="#658D75">
+                   <RadioButton
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="남자" />
+                   <RadioButton
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="여자" />
+               </RadioGroup>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="분류"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <RadioGroup
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="비장애인(18세미만)" />
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </RadioGroup>
+           <RadioGroup
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="가출인" />
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="치매환자" />
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="지적장애인" />
+           </RadioGroup>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="실종일시"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <EditText
+               android:layout_width="130dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_edittext"
+               android:layout_marginTop="10dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="실종나이"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <EditText
+               android:layout_width="130dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_edittext"
+               android:layout_marginTop="10dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="실종장소"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_edittext"
+               android:layout_marginTop="10dp"
+               android:lines="3"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="실종장소"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_edittext"
+               android:layout_marginTop="10dp"
+               android:hint="30자 이내"
+               android:textSize="10sp"
+               android:gravity="top"
+               android:paddingTop="10dp"
+               android:paddingLeft="10dp"
+               android:lines="3"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="착의사항"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_edittext"
+               android:layout_marginTop="10dp"
+               android:hint="60자 이내"
+               android:paddingLeft="10dp"
+               android:paddingTop="10dp"
+               android:textSize="10dp"
+               android:gravity="top"
+               android:lines="6"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="신체특징"
+               android:textColor="@color/black"
+               android:layout_marginTop="30dp" />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_edittext"
+               android:layout_marginTop="10dp"
+               android:hint="60자 이내"
+               android:paddingLeft="10dp"
+               android:paddingTop="10dp"
+               android:textSize="10dp"
+               android:gravity="top"
+               android:lines="6"/>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="글작성 하기"
+               android:textStyle="bold" />
+
+
+       </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
