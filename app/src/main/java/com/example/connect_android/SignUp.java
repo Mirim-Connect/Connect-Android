@@ -82,8 +82,8 @@ public class SignUp extends AppCompatActivity {
             return;
         }
 
-        if(pw.length()<11){
-            password_text.setError("비밀번호는 10자리 이상입니다.");
+        if(pw.length()<10){
+            password_text.setError("비밀번호는 최소 10자리 입니다.");
             password_text.requestFocus();
             return;
         }

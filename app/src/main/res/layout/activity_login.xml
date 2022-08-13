@@ -53,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:hint="password"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/login_btn"

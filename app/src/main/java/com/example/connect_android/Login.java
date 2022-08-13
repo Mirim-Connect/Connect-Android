@@ -2,13 +2,19 @@ package com.example.connect_android;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 
@@ -43,6 +49,41 @@ public class Login extends AppCompatActivity {
             }
 
             private void userLogin() {
+                String email = email_text.getText().toString().trim();
+                String password = password_text.getText().toString().trim();
+
+                if(email.isEmpty()){
+                    email_text.setError("이메일은 반드시 입력해야합니다.");
+                    email_text.requestFocus();
+                    return;
+                }
+
+                if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                    email_text.setError("유효한 이메일을 입력하세요. ");
+                    email_text.requestFocus();
+                    return;
+                }
+
+                if(password.length() < 10){
+                    password_text.setError("비밀번호는 최소 10자리 입니다.");
+                    password_text.requestFocus();
+                    return;
+                }
+
+                mAuth = FirebaseAuth.getInstance();
+
+                mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+
+                        if(task.isSuccessful()){
+                            Intent in = new Intent(Login.this, choose_menu.class);
+                            startActivity(in);
+                        }else{
+                            Toast.makeText(getApplicationContext(), "로그인을 실패하였습니다.", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
             }
         });
     }
