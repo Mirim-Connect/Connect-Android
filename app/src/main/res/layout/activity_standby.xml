@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sb_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/standby_icon"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실종자 실종동물들이\n     가족들 곁으로\n  돌아 갈 수 있도록"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black" />
+
+</LinearLayout>
