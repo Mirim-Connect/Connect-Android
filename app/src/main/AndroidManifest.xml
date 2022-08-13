@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.connect_android">
 
     <application
@@ -10,9 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectandroid">
         <activity
-            android:name=".animals_writepage"
-            android:exported="false" />
-        <activity
             android:name=".Human_writepage"
             android:exported="false" />
         <activity
@@ -20,7 +18,18 @@
             android:exported="false" />
         <activity
             android:name=".choose_menu"
+            android:exported="false"/>
+        <activity
+            android:name=".MyPageActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".StandByActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".animals_writepage"
             android:exported="true">
+<!--            tools:ignore="DuplicateActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
