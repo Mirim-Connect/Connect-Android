@@ -55,5 +55,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:src="@drawable/pencil"
+        android:backgroundTint="#76CAB2"
         android:layout_margin="16dp" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
