@@ -5,8 +5,12 @@
       <map>
         <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/round.xml" value="0.223" />
         <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/shadow.xml" value="0.2265" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_animals_writepage.xml" value="0.22282608695652173" />
         <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_choose_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_human_writepage.xml" value="0.22282608695652173" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_login.xml" value="0.22282608695652173" />
         <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_mypage.xml" value="0.22282608695652173" />
         <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/custom_listitem_human.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hjhaj/AndroidStudioProjects/Connect-Android/app/src/main/res/drawable/edit.xml" value="0.1885" />
         <entry key="..\:/Users/hjhaj/AndroidStudioProjects/Connect-Android/app/src/main/res/drawable/pencil_btn.xml" value="0.176" />

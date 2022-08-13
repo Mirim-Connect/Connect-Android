@@ -17,6 +17,7 @@
         android:padding="50dp"
         android:drawableTop="@drawable/baby"
         android:text="사람"
+        android:backgroundTint="@color/white"
         android:textColor="@color/black"/>
 
     <Button
@@ -27,5 +28,6 @@
         android:drawableTop="@drawable/dog"
         android:background="@drawable/round"
         android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         android:text="동물"/>
 </LinearLayout>

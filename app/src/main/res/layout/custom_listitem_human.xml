@@ -106,6 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:background="@drawable/round"
-            android:text="자세히 보기" />
+            android:text="자세히 보기"
+            android:backgroundTint="@color/white"/>
     </RelativeLayout>
 </LinearLayout>
