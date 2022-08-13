@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96583724202",
+    "project_id": "auth-bc623",
+    "storage_bucket": "auth-bc623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96583724202:android:737e03015d7876598274d3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96583724202-j24pqpgtptoc77apml4cn0mvnu87r0m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9NaQzKWgVBusSX3izEVXihoCqlKMpmHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96583724202-j24pqpgtptoc77apml4cn0mvnu87r0m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
