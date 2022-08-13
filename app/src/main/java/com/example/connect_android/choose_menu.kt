@@ -15,7 +15,6 @@ class choose_menu : AppCompatActivity() {
             val intent = Intent(this@choose_menu, MainActivity::class.java)
             startActivity(intent)
         }
-
     }
 
 }
