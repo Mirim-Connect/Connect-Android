@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewMoreActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/human"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="박땡땡"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성별: 남자"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="분류 : 가출인"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실종일시 : 2022.08.13"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실종나이 : 21세 (현 23세)"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실종장소 : 서울특별시 강동구 천호동"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <Button
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:text="댓글"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="538dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

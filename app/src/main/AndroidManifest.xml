@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectandroid">
         <activity
+            android:name=".ListViewMoreActivity"
+            android:exported="false" />
+        <activity
             android:name=".Human_writepage"
             android:exported="false" />
         <activity
@@ -18,16 +21,16 @@
             android:exported="false" />
         <activity
             android:name=".choose_menu"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MyPageActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".StandByActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".animals_writepage"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".SignUp"
             android:exported="false" />
@@ -35,7 +38,7 @@
             android:name=".Login"
             android:exported="true">
 
-<!--            tools:ignore="DuplicateActivity">-->
+            <!-- tools:ignore="DuplicateActivity"> -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
