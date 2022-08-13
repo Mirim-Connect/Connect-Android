@@ -28,5 +28,4 @@
         android:background="@drawable/round"
         android:textColor="@color/black"
         android:text="동물"/>
-
 </LinearLayout>
