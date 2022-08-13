@@ -22,13 +22,19 @@
         <activity
             android:name=".MyPageActivity"
             android:exported="false"/>
-
         <activity
             android:name=".StandByActivity"
             android:exported="false"/>
         <activity
             android:name=".animals_writepage"
+            android:exported="false"/>
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
             android:exported="true">
+
 <!--            tools:ignore="DuplicateActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

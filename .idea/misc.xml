@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/login_btn_background.xml" value="0.2325" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/round.xml" value="0.223" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/round_edittext.xml" value="0.23" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/drawable/shadow.xml" value="0.2265" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_animals_writepage.xml" value="0.4222222222222222" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_choose_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_human_writepage.xml" value="0.33" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
         <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/drawable/login_btn_background.xml" value="0.2195" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/drawable/round_edittext.xml" value="0.2195" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/layout/activity_choose_menu.xml" value="0.1875" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/layout/activity_login.xml" value="0.21603260869565216" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/layout/activity_mypage.xml" value="0.18645833333333334" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/layout/activity_standby.xml" value="0.11778115501519756" />
-        <entry key="..\:/Users/WINDOWS 10/Desktop/Connect-Android-main (1)/app/src/main/res/layout/custom_listitem_human.xml" value="0.1875" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_mypage.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/activity_standby.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/layout/custom_listitem_human.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1875" />
+        <entry key="..\:/Android_Projects/Projects/connectandroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1875" />
       </map>
     </option>
   </component>
