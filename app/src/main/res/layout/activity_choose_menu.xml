@@ -9,16 +9,24 @@
     android:gravity="center">
 
     <Button
+        android:id="@+id/btn_human"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:background="@drawable/round"
         android:layout_marginBottom="85dp"
-        android:text="사람" />
+        android:padding="50dp"
+        android:drawableTop="@drawable/baby"
+        android:text="사람"
+        android:textColor="@color/black"/>
 
     <Button
+        android:id="@+id/btn_animal"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:padding="50dp"
+        android:drawableTop="@drawable/dog"
         android:background="@drawable/round"
+        android:textColor="@color/black"
         android:text="동물"/>
 
 </LinearLayout>
